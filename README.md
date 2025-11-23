@@ -13,7 +13,7 @@ Projemiz, güncel Doğal Dil İşleme (NLP) teknolojilerinin en güçlü bileşe
 | **CAG (Context-Augmented Generation)** | Projenin özgün yanlarından biri olan CAG, sistemin **geçmiş LGS veya benzeri sınav sorularının semantik formatını** ve bağlamını analiz ederek, tahmini daha güncel ve bağlamsal hale getirmesini sağlar. |
 | **RARE (Reasoning & Analysis for Response Extraction)** | Nihai aşamada, Gemini 2.5 Pro gibi güçlü bir **LLM'nin (Büyük Dil Modeli)** devreye girdiği kısımdır. Bu aşamada, RAG ve CAG'den gelen çıktılar **Analiz** edilir ve **Reasoning (Muhakeme)** ile işlenerek, en doğru ve mantıklı soru tahmini (`ÇIKTI`) oluşturulur. |
 
-![LGS Soru Tahmin Sisteminin RAG, CAG ve RARE Bileşenlerini Gösteren Akış Şeması](Ekran%20görüntüsü%202025-11-21%20124704.png)
+Akış Şeması ya da N8N şeması eklenecektir.
 
 ---
 
