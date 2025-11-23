@@ -9,7 +9,7 @@ Projemiz, güncel Doğal Dil İşleme (NLP) teknolojilerinin en güçlü bileşe
 
 | Mimarinin Adı | Açıklama |
 | :--- | :--- |
-| **RAG (Retrieval-Augmented Generation)** | Geleneksel olarak, sistemin genel müfredat ve ders notları gibi **statik verilerden** bilgi çekmesini ve buna dayalı cevap/tahmin üretmesini sağlar. |
+| **RAG (Retrieval-Augmented Generation)** | Geleneksel olarak, sistemin genel müfredat ve ders notları gibi **statik verileri** bir vektör database'ine kaydedilmesini sağlar. |
 | **CAG (Context-Augmented Generation)** | Projenin özgün yanlarından biri olan CAG, sistemin **geçmiş LGS veya benzeri sınav sorularının semantik formatını** ve bağlamını analiz ederek, tahmini daha güncel ve bağlamsal hale getirmesini sağlar. |
 | **RARE (Reasoning & Analysis for Response Extraction)** | Nihai aşamada, Gemini 2.5 Pro gibi güçlü bir **LLM'nin (Büyük Dil Modeli)** devreye girdiği kısımdır. Bu aşamada, RAG ve CAG'den gelen çıktılar **Analiz** edilir ve **Reasoning (Muhakeme)** ile işlenerek, en doğru ve mantıklı soru tahmini (`ÇIKTI`) oluşturulur. |
 
