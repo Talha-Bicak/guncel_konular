@@ -50,31 +50,3 @@ Araştırma sürecinde Gemini 2.5 Pro, endüstri standardı diğer modellerle k�
 * **Aşırı Güvenlik (Over-Refusal):** Dini metinler (Ayet/Hadis) içeren analizlerde, modelin "hassas içerik" uyarısı vererek yanıtı reddetme riski yüksektir. Otomasyon için risklidir.
 * **Görsel İşleme:** Multimodal yetenekleri Gemini 2.5 Pro kadar entegre ve hızlı değildir.
 
----
-
-## 🏗️ Teorik Sistem Mimarisi
-
-Araştırması yapılan modelin, sistem içerisindeki konumu şu şekildedir:
-
-```mermaid
-graph TD
-    A[Kullanıcı İsteği] --> B(Veri Toplama Katmanı);
-    B --> C{RAG & CAG Modülleri};
-    C -- Müfredat + 10 Yıllık Soru Arşivi --> D[GEMINI 2.5 PRO];
-    D -- Thinking Process / Akıl Yürütme --> E[Trend Analizi & Çıkarım];
-    E --> F[Çıktı: Gerekçeli Soru Tahmini];
-📊 Beklenen Sonuçlar
-Seçilen modelin teorik entegrasyonu sonucunda hedeflenen başarı metrikleri:
-
-Konu Tahmin Doğruluğu: %80 - %85
-
-Soru Tipi Benzerliği: %70 - %75
-
-Temel Hedef: Öğrenciye sınavda "Ben bu sorunun benzerini sistemde görmüştüm" dedirtebilmek.
-
-🔗 Kaynaklar ve Referanslar
-Google DeepMind - Gemini Era
-
-Humanity's Last Exam (HLE) Benchmark Results
-
-MEB 8. Sınıf Din Kültürü ve Ahlak Bilgisi Müfredatı
