@@ -57,8 +57,6 @@ Proje, belirlenen kilometre taşlarına uygun ve planlandığı gibi ilerlemekte
 ## 🚀 Sonraki Adımlar
 Araştırma sonuçlarının uygulamaya geçirilmesi ve RAG-CAG bileşenlerinin ilk prototiplerinin oluşturulması planlanmaktadır.
 
-
-
-
+---
 
 Data source = https://drive.google.com/file/d/1Bbt8iFQPTATmCq5pcUaNT21SMD1jyJKx/view?usp=sharing
